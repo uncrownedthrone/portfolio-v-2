@@ -481,7 +481,8 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-  background: url(../images/home2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url(../images/home2.jpg);
   background-color: #222;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -558,7 +559,7 @@ textarea.form-control {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   height: 100%;
 }
 
@@ -890,25 +891,6 @@ figure {
   display: inline-block;
   margin: 5px;
 }
-
-/* .social-links a {
-  width: 36px;
-  height: 36px;
-  display: block;
-  line-height: 35px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
-} */
-
-/* .social-links a:hover {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
-} */
 
 .contactButtonDiv {
   color: rgba(255, 255, 255, 0.8);
