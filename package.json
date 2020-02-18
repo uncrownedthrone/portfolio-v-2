@@ -27,5 +27,10 @@
     "stylelint": "^12.0.1",
     "stylelint-config-standard": "^19.0.0"
   },
-  "homepage": ""
+  "homepage": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/uncrownedthrone/portfolio-v-2.git",
+  "author": "Justin Swiger <justin.swiger@me.com>",
+  "license": "MIT"
 }
